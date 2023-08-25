@@ -8,7 +8,7 @@ const templateDirectories = {
   client: 'client',
 };
 
-let templateDirectory = templateDirectories.sleek; // default
+let templateDirectory = templateDirectories.client; // default
 if (argv.theme) {
   templateDirectory = templateDirectories[argv.theme];
   console.log(`Exporting template: ${templateDirectory}`);

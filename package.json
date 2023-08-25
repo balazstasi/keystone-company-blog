@@ -1,8 +1,8 @@
 {
-  "name": "keystone-static-blog",
+  "name": "keystone-company-blog",
   "version": "0.0.1",
   "description": "Starter template to statically generate blogs with Keystone and Next.js",
-  "repository": "git@github.com:balazstasi/keystone-company-blog-quartz-devs.git",
+  "repository": "git@github.com:balazstasi/keystone-company-blog.git",
   "author": "Tasi Balazs <balazstasi@tuta.io>",
   "license": "MIT",
   "private": true,
@@ -20,10 +20,7 @@
     "start:keystone": "cd server && yarn build && yarn start",
     "kill:keystone": "kill-port --port 3000",
     "export:docker": "node scripts/export.js --docker",
-    "export": "node scripts/export.js",
-    "export:clean": "node scripts/export.js --clean",
-    "dev-client": "cd client && yarn dev",
-    "dev-server": "cd server && yarn dev"
+    "export": "node scripts/export.js"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.33.1",
